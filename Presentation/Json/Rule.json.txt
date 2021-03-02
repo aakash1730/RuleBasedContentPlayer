@@ -1,0 +1,93 @@
+{
+	"Start Expression": {
+		"Operator": "EQ",
+		"LHS": "Course Name",
+		"LHSDataType": "String",
+		"LHSType": "Variable",
+		"RHS": "Angular",
+		"RHSDataType": "String",
+		"RHSType": "Constant",
+		"TrueAction": "Display Resource",
+		"TrueEntity": "ANGL_RES_0002",
+		"FalseAction": "Display Resource",
+		"FalseEntity": "Error"
+	},
+	"ANGL_RULE_0001": {
+        "Operator": "EQ",
+        "LHS": "Do you know Angular?",
+        "LHSDataType": "String",	
+        "LHSType": "Variable",
+        "RHS": "Yes",
+        "RHSDataType": "String",
+        "RHSType": "Literal",
+        "TrueAction": "Display Resource",
+        "TrueEntity": "ANGL_RES_0006",
+        "FalseAction": "Display Resource",
+        "FalseEntity": "ANGL_RES_0003"
+    },
+    "ANGL_RULE_0002": {
+        "Operator": "EQ",
+        "LHS": "Do you know client-server architecture?",
+        "LHSDataType": "String",
+        "LHSType": "Variable",
+        "RHS": "Yes",
+        "RHSDataType": "String",
+        "RHSType": "Literal",
+        "TrueAction": "Display Resource",
+        "TrueEntity": "ANGL_RES_0004",
+        "FalseAction": "Display Resource",
+        "FalseEntity": "ANGL_RES_0007"
+    },
+    "ANGL_RULE_0003": {
+        "Operator": "EQ",
+        "LHS": "Do you know basic web technologies?",
+        "LHSDataType": "String",
+        "LHSType": "Variable",
+        "RHS": "Yes",
+        "RHSDataType": "String",
+        "RHSType": "Literal",
+        "TrueAction": "Display Resource",
+        "TrueEntity": "ANGL_RES_0005",
+        "FalseAction": "Display Resource",
+        "FalseEntity": "ANGL_RES_0008"
+    },
+    "ANGL_RULE_0004": {
+        "Operator": "EQ",
+        "LHS": "Do you know JavaScript libraries or frameworks?",
+        "LHSDataType": "String",
+        "LHSType": "Variable",
+        "RHS": "Yes",
+        "RHSDataType": "String",
+        "RHSType": "Literal",
+        "TrueAction": "Display Resource",
+        "TrueEntity": "ANGL_RES_0006",
+        "FalseAction": "Display Resource",
+        "FalseEntity": "ANGL_RES_0009"
+    },
+    "ANGL_RULE_0005": {
+        "Operator": "GTEQ",
+        "LHS": "Score",
+        "LHSDataType": "Numeric",
+        "LHSType": "Variable",
+        "RHS": "65",
+        "RHSDataType": "Numeric",
+        "RHSType": "Literal",
+        "TrueAction": "Display Resource",
+        "TrueEntity": "ANGL_RES_0015",
+        "FalseAction": "Display Resource",
+        "FalseEntity": "ANGL_RES_0008"
+    },
+    "ANGL_RULE_0006": {
+        "Operator": "EQ",
+        "LHS": "Q7",
+        "LHSDataType": "String",
+        "LHSType": "Variable",
+        "RHS": "Correct",
+        "RHSDataType": "String",
+        "RHSType": "Literal",
+        "TrueAction": "Display Resource",
+        "TrueEntity": "ANGL_RES_0015",
+        "FalseAction": "Display Resource",
+        "FalseEntity": "ANGL_RES_0008"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "Name": "Angular 7 Assessment",
+    "Description": "Angular 7 Quiz (contains container,directive,declarative,services etc.)",
+    "Question": [
+        {
+            "Id": 1,
+            "QuestionFlag":"Description",
+            "Description": "Kunal is developing an online banking application using Angular framework. The components have been developed for implementing UI requirements. ConsIdering Angular component syntax, select the correct definition of template insIde the component.",
+            "OptionAlign":"Vertical",
+            "Options": [
+                {
+                    "Id":101,
+                    "QuestionId": 1,
+                    "Name": "@Component({selector:’searchitem’, template:’searchitem.component.html’}) ",
+                    "IsAnswer": false
+                },
+                {
+                    "Id":102,
+                    "QuestionId": 1,
+                    "Name": "@Component({selector:’searchitem’, templateUrl:’searchitem.component.html’}) ",
+                    "IsAnswer": true
+                },
+                {
+                    "Id":103,
+                    "QuestionId": 1,
+                    "Name": "@Component({selector:’searchitem’, templateUrl:`<p>Search your items here</p>`) ",
+                    "IsAnswer": false
+                },
+                {
+                    "Id":104,
+                    "QuestionId": 1,
+                    "Name": "@Component({Name:’searchitem’, template:`<p>Search your items here</p>`’}) ",
+                    "IsAnswer": false
+                }
+            ],
+            "QuestionType": "SingleChoice"
+        },
+        {
+            "Id": 2,
+            "QuestionFlag":"Description",
+            "Description": "Which of the given statements is an invalId statement with respect to Angular framework?",
+            "OptionAlign":"Vertical",
+            "Options": [
+                {
+                    "Id":101,
+                    "QuestionId": 2,
+                    "Name": "Angular 7 is based on Single page application architecture ",
+                    "IsAnswer": false
+                },
+                {
+                    "Id":102,
+                    "QuestionId": 2,
+                    "Name": "Angular 7 designs the UI of an application using components",
+                    "IsAnswer": true
+                },
+                {
+                    "Id":103,
+                    "QuestionId": 2,
+                    "Name": "Angular 7 can be executable on both client-sIde and server-sIde",
+                    "IsAnswer": true
+                },
+                {
+                    "Id":104,
+                    "QuestionId": 2,
+                    "Name": "Angular 7 projects can be developed using Angular CLI only ",
+                    "IsAnswer": true
+                }
+            ],
+            "QuestionType": "MultipleChoice"
+        },
+        {
+            "Id": 3,
+            "QuestionFlag":"Description",
+            "Description": "Sia and Ria are working on web application development. Sia is experienced web developer and has used Java and dot net technologies earlier for developing web applications. Ria is new to the web world and is has joined fresh after the training in modern web development frameworks. Ria suggests the use of web components in the application. Help Ria find best suitable benefits from given list to convince Sia.",
+            "OptionAlign":"Vertical",
+            "Options": [
+                {
+                    "Id":101,
+                    "QuestionId": 3,
+                    "Name": "UI code for given requirement is written once and may or may not be used at other places.",
+                    "IsAnswer": false
+                },
+                {
+                    "Id":102,
+                    "QuestionId": 3,
+                    "Name": "UI code for given requirement is written once and may be used at other places in same application or any other application.",
+                    "IsAnswer": true
+                },
+                {
+                    "Id":103,
+                    "QuestionId": 3,
+                    "Name": "UI code for given requirement is written once and may be used at other places in same application only.",
+                    "IsAnswer": false
+                },
+                {
+                    "Id":104,
+                    "QuestionId": 3,
+                    "Name": "UI code for given requirement is written once and may be replicated at other places when need be ",
+                    "IsAnswer": false
+                }
+            ],
+            "QuestionType": "SingleChoice"
+        },
+        {
+            "Id": 4,
+            "QuestionFlag":"Description",
+            "Description": "In Angular framework, we create components to generate view for the given requirement. The components generated once can be reused at other places. What are the valId files in our Angular application that may reuse the component which has been created?",
+            "OptionAlign":"Vertical",
+            "Options": [
+                {
+                    "Id":101,
+                    "QuestionId": 4,
+                    "Name": "Index.html",
+                    "IsAnswer": true
+                },
+                {
+                    "Id":102,
+                    "QuestionId": 4,
+                    "Name": "Any other component file",
+                    "IsAnswer": true
+                },
+                {
+                    "Id":103,
+                    "QuestionId": 4,
+                    "Name": "Only the component where code is written can use it",
+                    "IsAnswer": false
+                }
+            ],
+            "QuestionType": "MultipleChoice"
+        },
+        {
+            "Id": 5,
+            "QuestionFlag":"File",
+            "Path": "./assets/Courses/Angular/Resource/Image/1.PNG",
+            "OptionAlign":"Vertical",
+            "Options": [
+                {
+                    "Id":101,
+                    "QuestionId": 5,
+                    "Name": "20-10-10-20",
+                    "IsAnswer": false
+                },
+                {
+                    "Id":102,
+                    "QuestionId": 5,
+                    "Name": "20-20-10-20",
+                    "IsAnswer": true
+                },
+                {
+                    "Id":103,
+                    "QuestionId": 5,
+                    "Name": "20-20-20-20",
+                    "IsAnswer": false
+                },
+                {
+                    "Id":104,
+                    "QuestionId": 5,
+                    "Name": "10-10-20-20",
+                    "IsAnswer": false
+                }
+            ],
+            "QuestionType": "SingleChoice"
+        }
+    ]
+}

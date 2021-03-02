@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Angular",
+		"path": [
+			"Rule Path": "./assets/Angular/Rule.json",
+			"Resource Path": "./assets/Angular/Resource.json"
+		],
+		"variable name": "Course Name"
+	},
+	{
+		"name": "Java",
+		"path": [
+			"Rule Path": "./assets/Java/Rule.json",
+			"Resource Path": "./assets/Java/Resource.json"
+		],
+		"variable name": "Course Name"
+	},
+	{
+		"name": "CSS",
+		"path": [
+			"Rule Path": "./assets/CSS/Rule.json",
+			"Resource Path": "./assets/CSS/Resource.json"
+		],
+		"variable name": "Course Name"
+	},
+	{
+		"name": "SalesForce",
+		"path": [
+			"Rule Path": "./assets/SalesForce/Rule.json",
+			"Resource Path": "./assets/SalesForce/Resource.json"
+		],
+		"variable name": "Course Name"
+	}
+]

@@ -1,0 +1,136 @@
+{
+    "Q1": {
+        "QuestionFlag": "Description",
+        "Description": "Do you Know Angular?",
+        "Option": [
+            {
+                "id": "A",
+                "name": "Yes"
+            },
+            {
+                "id": "B",
+                "name": "No"
+            }
+        ],
+        "QuestionType": "Interaction"
+    },
+    "Q2": {
+        "QuestionFlag": "Description",
+        "Description": "Do you know client-server architecture?",
+        "Option": [
+            {
+                "id": "A",
+                "name": "Yes"
+            },
+            {
+                "id": "B",
+                "name": "No"
+            }
+        ],
+        "QuestionType": "Interaction"
+    },
+    "Q3": {
+        "QuestionFlag": "Description",
+        "Description": "Do you know basic web technologies?",
+        "Option": [
+            {
+                "id": "A",
+                "name": "Yes"
+            },
+            {
+                "id": "B",
+                "name": "No"
+            }
+        ],
+        "QuestionType": "Interaction"
+    },
+    "Q4": {
+        "QuestionFlag": "Description",
+        "Description": "Do you know JavaScript libraries or frameworks?",
+        "Option": [
+            {
+                "id": "A",
+                "name": "Yes"
+            },
+            {
+                "id": "B",
+                "name": "No"
+            }
+        ],
+        "QuestionType": "Interaction"
+    },
+    "Q5": {
+        "QuestionFlag": "Description",
+        "Description": "Do you Know TypeScript?",
+        "Option": [
+            {
+                "id": "A",
+                "name": "Yes"
+            },
+            {
+                "id": "B",
+                "name": "No"
+            }
+        ],
+        "QuestionType": "Interaction"
+    },
+    "Q6": {
+        "QuestionFlag": "Description",
+        "Description": "Are you a Manager or Developer?",
+        "Option": [
+            {
+                "id": "A",
+                "name": "Manager"
+            },
+            {
+                "id": "B",
+                "name": "Developer"
+            }
+        ],
+        "QuestionType": "Interaction"
+    },
+    "Q7": {
+        "QuestionFlag": "Description",
+        "Description": "Full form of TS?",
+        "Option": [
+            {
+                "id": "A",
+                "name": "Type Script"
+            },
+            {
+                "id": "B",
+                "name": "Typing Script"
+            },
+            {
+                "id": "C",
+                "name": "Typo Script"
+            }
+        ],
+        "QuestionType": "SingleChoice",
+        "CorrectAnswer": "Type Script"
+    },
+    "Q8": {
+        "QuestionFlag": "Description",
+        "Description": "Prerequisite of Angular",
+        "Option": [
+            {
+                "id": "A",
+                "name": "HTML"
+            },
+            {
+                "id": "B",
+                "name": "CSS"
+            },
+            {
+                "id": "C",
+                "name": "JavaScript"
+            },
+            {
+                "id": "D",
+                "name": "Java"
+            }
+        ],
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": ["B","C","A"]
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "ANGL_RES_0001": {
+        "ResourceType": "Question",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Question.json"
+        ],
+        "QuestionId": "Q6",
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0002",
+        "VariableName": "RoleType"
+    },
+    "ANGL_RES_0002": {
+        "ResourceType": "Question",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Question.json"
+        ],
+        "QuestionId": "Q1",
+        "NextAction": "Evaluate Rule",
+        "NextEntity": "ANGL_RULE_0001",
+        "VariableName": "Do you know Angular?"
+    },
+    "ANGL_RES_0003": {
+        "ResourceType": "Question",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Question.json"
+        ],
+        "QuestionId": "Q2",
+        "NextAction": "Evaluate Rule",
+        "NextEntity": "ANGL_RULE_0002",
+        "VariableName": "Do you know client-server architecture?"
+    },
+    "ANGL_RES_0004": {
+        "ResourceType": "Question",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Question.json"
+        ],
+        "QuestionId": "Q3",
+        "NextAction": "Evaluate Rule",
+        "NextEntity": "ANGL_RULE_0003",
+        "VariableName": "Do you know basic web technologies?"
+    },
+    "ANGL_RES_0005": {
+        "ResourceType": "Question",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Question.json"
+        ],
+        "QuestionId": "Q4",
+        "NextAction": "Evaluate Rule",
+        "NextEntity": "ANGL_RULE_0004",
+        "VariableName": "Do you know JavaScript libraries or frameworks?"
+    },
+    "ANGL_RES_0006": {
+        "ResourceType": "Video",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0006/MPAExp.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0006/MPASPAStory.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0006/SPAExp.mp4"
+        ],
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0010"
+    },
+    "ANGL_RES_0007": {
+        "ResourceType": "Video",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0007/CSIntro.mp4"
+        ],
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0008"
+    },
+    "ANGL_RES_0008": {
+        "ResourceType": "Video",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0008/IntroWebTech-1.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0008/IntroWebTech-2.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0008/IntroWebTech-3.mp4"
+        ],
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0009"
+    },
+    "ANGL_RES_0009": {
+        "ResourceType": "Video",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0009/JSLib-1.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0009/JSLib-2.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0009/JSLib-3.mp4"
+        ],
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0006"
+    },
+    "ANGL_RES_0010": {
+        "ResourceType": "Video",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0010/WCExp.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0010/WCStory.mp4"
+        ],
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0011"
+    },
+    "ANGL_RES_0011": {
+        "ResourceType": "Video",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0011/AngularComponents Structure-1.mp4",
+            "./assets/Courses/Angular/Resource/Video/ANGL_RES_0011/AngularComponents Structure-2.mp4"
+        ],
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0012"
+    },
+    "ANGL_RES_0012": {
+        "ResourceType": "Quiz",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Question.json"
+        ],
+        "QuestionId": "Q7",
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0013",
+        "VariableName": "Q7"
+    },
+    "ANGL_RES_0013": {
+        "ResourceType": "Quiz",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Question.json"
+        ],
+        "QuestionId": "Q8",
+        "NextAction": "Display Resource",
+        "NextEntity": "ANGL_RES_0014",
+        "VariableName": "Q8"
+    },
+    "ANGL_RES_0014": {
+        "ResourceType": "Test",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Test.json"
+        ],
+        "NextAction": "Evaluate Rule",
+        "NextEntity": "ANGL_RULE_0005",
+        "VariableName": "Score"
+    },
+    "ANGL_RES_0015": {
+        "ResourceType": "Image",
+        "ResourceLocation": [
+            "./assets/Courses/Angular/Resource/Image/1.jpg"
+        ],
+        "StopPlayer": "True"
+    },
+    "Error":{
+ 	"Resource Type": "Image",
+	"ResourceLocation":[
+	    "./assets/Courses/Angular/Resource/Image/10.jpg"
+	]   
+    }
+}
